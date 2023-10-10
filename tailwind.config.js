@@ -22,7 +22,7 @@ export default {
         '3/2': '3 / 2'
       },
       height: {
-        'screen': ['100vh', '100dvh']
+        'dynamic-screen': ['100vh', '100dvh']
       }
     },
   },

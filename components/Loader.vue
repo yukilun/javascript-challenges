@@ -1,5 +1,5 @@
 <template>
-    <div ref="loader" class="fixed top-0 left-0 z-40 w-full h-screen bg-neutral-50 dark:bg-neutral-800 flex flex-col justify-center items-center opacity-100">
+    <div ref="loader" class="fixed top-0 left-0 z-40 w-full h-dynamic-screen bg-neutral-50 dark:bg-neutral-800 flex flex-col justify-center items-center opacity-100">
         <div ref="content" class="w-[80%] max-w-[350px] opacity-0">
             <h1 class="text-5xl md:text-6xl lg:text-7xl text-center mb-5">
                 <span ref="percentage">100</span>%
