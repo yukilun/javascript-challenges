@@ -5,7 +5,7 @@
             <div class="w-full md:w-1/2">
                 <AnimatedParagraph :paragraphText="about" class="text-lg md:text-2xl !leading-[1.5em] text-neutral-500 dark:text-neutral-400 mb-10"/>
                 <div id="contact" class="flex gap-3 justify-center md:justify-start">
-                    <NuxtLink v-for="item in contact" :key="item.name" :to="item.link" :aria-label="item.name" 
+                    <NuxtLink v-for="item in contact" :key="item.name" :to="item.link" :aria-label="item.name" target="_blank"
                         class="text-neutral-400 dark:text-neutral-500 hover:!text-cyan-500 transition-300">
                         <Icon :name="item.icon" class="h-8 w-8 md:h-10 md:w-10"/>
                     </NuxtLink>
