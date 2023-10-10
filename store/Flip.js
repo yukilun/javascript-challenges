@@ -12,9 +12,5 @@ export const useFlipStore = defineStore('flip', () => {
         isFliping.value = fliping;
     }
 
-    watch(states, (newStates) => {
-        console.log(newStates);
-    }, {immediate: true, deep: true})
-
     return { states, setState, isFliping, setFliping };
 });
