@@ -1,0 +1,369 @@
+{
+  "about": "Hi! I'm Yuki Lun, a full-stack web developer with a passion for creating websites. As a programmer, I enjoy challenging myself with interesting coding questions. This website summarizes all the JavaScript challenges that I have tackled so far. Some of these challenges stem from my personal ideas, while others I discovered online.",
+  "contact": [
+    {
+      "name": "portfolio",
+      "icon": "tabler:world",
+      "link": "https://yukilun.com/"
+    },
+    {
+      "name": "github",
+      "icon": "mdi:github",
+      "link": "https://github.com/yukilun"
+    },
+    {
+      "name": "codepen",
+      "icon": "fe:codepen",
+      "link": "https://codepen.io/yukilun"
+    },
+    {
+      "name": "linkedin",
+      "icon": "ri:linkedin-fill",
+      "link": "https://www.linkedin.com/in/yuki-lun-5a6040202"
+    }
+  ],
+  "challenges": [
+    {
+      "id": "multi-step-form",
+      "name": "Multi-Step Form",
+      "thumbnail": "/img/multi-step-form-thumbnail.png",
+      "description": "This is a great test for my form-building and JavaScript skills! I created a user-friendly form where users can navigate steps, update selections, and receive validation messages.",
+      "technologies": ["Vue.js", "Pinia"],
+      "provider": {
+        "name": "Frontend Mentor",
+        "link": "https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ"
+      },
+      "links": {
+        "repo": "https://github.com/yukilun/multi-step-form",
+        "demo": "https://yukilun.github.io/multi-step-form"
+      },
+      "screenshots": [
+        "/img/multi-step-form-desktop-1.png",
+        "/img/multi-step-form-desktop-2.png",
+        "/img/multi-step-form-desktop-3.png",
+        "/img/multi-step-form-desktop-4.png",
+        "/img/multi-step-form-desktop-5.png",
+        "/img/multi-step-form-mobile.png"
+      ]
+    },
+    {
+      "id": "todo-app",
+      "name": "Todo App",
+      "thumbnail": "/img/todo-app-thumbnail.png",
+      "description": "The classic todo app with a few twists! This app includes a dark/light theme toggle and drag & drop reordering.",
+      "technologies": ["Vue.js", "Pinia", "Tailwind CSS", "Vue Draggable"],
+      "provider": {
+        "name": "Frontend Mentor",
+        "link": "https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW"
+      },
+      "links": {
+        "repo": "https://github.com/yukilun/todo-app",
+        "demo": "https://yukilun.github.io/todo-app"
+      },
+      "screenshots": [
+        "/img/todo-app-desktop-1.png",
+        "/img/todo-app-desktop-2.png",
+        "/img/todo-app-mobile.png"
+      ]
+    },
+    {
+      "id": "url-shortening-api",
+      "name": "URL Shortening API",
+      "thumbnail": "/img/url-shortening-api-thumbnail.png",
+      "description": "In this challenge, I created a user-friendly platform allowing users to shorten URLs effortlessly. ",
+      "technologies": [
+        "Vue.js",
+        "Nuxt.js",
+        "Pinia",
+        "Tailwind CSS",
+        "Mongoose",
+        "MongoDB"
+      ],
+      "provider": {
+        "name": "Frontend Mentor",
+        "link": "https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G"
+      },
+      "links": {
+        "repo": "https://github.com/yukilun/url-shortening-api",
+        "demo": "https://yukiurl.netlify.app"
+      },
+      "screenshots": [
+        "/img/url-shortening-api-desktop-1.png",
+        "/img/url-shortening-api-mobile.png"
+      ]
+    },
+    {
+      "id": "space-tourism-website",
+      "name": "Space Tourism Website",
+      "thumbnail": "/img/space-tourism-website-thumbnail.png",
+      "description": "With the professional web design, I created this responsive space tourism website!",
+      "technologies": ["Vue.js", "Vue Router", "Tailwind CSS"],
+      "provider": {
+        "name": "Frontend Mentor",
+        "link": "https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3"
+      },
+      "links": {
+        "repo": "https://github.com/yukilun/space-tourism-website",
+        "demo": "https://yukilun.github.io/space-tourism-website"
+      },
+      "screenshots": [
+        "/img/space-tourism-website-desktop-1.png",
+        "/img/space-tourism-website-desktop-3.png",
+        "/img/space-tourism-website-desktop-2.png",
+        "/img/space-tourism-website-desktop-4.png",
+        "/img/space-tourism-website-mobile.png"
+      ]
+    },
+    {
+      "id": "rest-countries-api",
+      "name": "REST Countries API",
+      "thumbnail": "/img/rest-countries-api-thumbnail.png",
+      "description": "This is a great challenge for practicing how to pull data from REST API. With this website, you can learn more about different countries in the world!",
+      "technologies": ["Vue.js", "Vue Router", "Tailwind CSS", "Fetch API"],
+      "provider": {
+        "name": "Frontend Mentor",
+        "link": "https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3"
+      },
+      "links": {
+        "repo": "https://github.com/yukilun/rest-countries-api-with-color-theme-switcher",
+        "demo": "https://yukilun.github.io/rest-countries-api-with-color-theme-switcher"
+      },
+      "screenshots": [
+        "/img/rest-countries-api-desktop-1.png",
+        "/img/rest-countries-api-desktop-2.png",
+        "/img/rest-countries-api-desktop-3.png",
+        "/img/rest-countries-api-desktop-4.png",
+        "/img/rest-countries-api-mobile.png"
+      ]
+    },
+    {
+      "id": "25+5-clock",
+      "name": "25 + 5 Clock",
+      "thumbnail": "/img/25+5-clock-thumbnail.png",
+      "description": "25 + 5 Clock is a very popular time managment method to boost productivity! With this app, you can even custom the duration of work and break as you want!",
+      "technologies": ["React", "SCSS"],
+      "provider": {
+        "name": "FreeCodeCamp",
+        "link": "https://www.freecodecamp.org/"
+      },
+      "links": { "codepen": "https://codepen.io/yukilun/pen/mdQKZxJ" },
+      "screenshots": [
+        "/img/25+5-clock-desktop-1.png",
+        "/img/25+5-clock-desktop-2.png",
+        "/img/25+5-clock-mobile.png"
+      ]
+    },
+    {
+      "id": "calculator",
+      "name": "Calculator",
+      "thumbnail": "/img/calculator-thumbnail.png",
+      "description": "Building a classic calculator is a great way to practice JavaScript Skills! Try it with some simple math operations.",
+      "technologies": ["React", "SCSS"],
+      "provider": {
+        "name": "FreeCodeCamp",
+        "link": "https://www.freecodecamp.org/"
+      },
+      "links": { "codepen": "https://codepen.io/yukilun/pen/mdQKZxJ" },
+      "screenshots": [
+        "/img/calculator-desktop-1.png",
+        "/img/calculator-desktop-2.png",
+        "/img/calculator-mobile.png"
+      ]
+    },
+    {
+      "id": "drum-machine",
+      "name": "Drum Machine",
+      "thumbnail": "/img/drum-machine-thumbnail.png",
+      "description": "A drum machine which allows you to create your drum beats! You can click the buttons or press the keys to play!",
+      "technologies": ["React", "SCSS"],
+      "provider": {
+        "name": "FreeCodeCamp",
+        "link": "https://www.freecodecamp.org/"
+      },
+      "links": { "codepen": "https://codepen.io/yukilun/pen/bGQKmNZ" },
+      "screenshots": [
+        "/img/drum-machine-desktop-1.png",
+        "/img/drum-machine-desktop-2.png",
+        "/img/drum-machine-mobile.png"
+      ]
+    },
+    {
+      "id": "color-blind-game",
+      "name": "Color Blind Game",
+      "thumbnail": "/img/color-blind-game-thumbnail.png",
+      "description": "Do you want to test your vision? Try this color blind game! You are required to pick the box that is slightly different from other boxes.",
+      "technologies": ["HTML", "CSS", "Vanilla JS"],
+      "provider": { "name": "myself", "link": "https://www.yukilun.com/" },
+      "links": {
+        "repo": "https://github.com/yukilun/JavaScript_Projects_Challenges/tree/main/colorBlindGame",
+        "demo": "https://js-challenges.yukilun.com/colorBlindGame"
+      },
+      "screenshots": [
+        "/img/color-blind-game-desktop-1.png",
+        "/img/color-blind-game-desktop-2.png",
+        "/img/color-blind-game-desktop-3.png",
+        "/img/color-blind-game-desktop-4.png"
+      ]
+    },
+    {
+      "id": "wordfill-game",
+      "name": "WordFill Game",
+      "thumbnail": "/img/wordfill-game-thumbnail.png",
+      "description": "Have you even tried the word fill-in game on the newspaper? Try to fill-in the words so that every rows and the highlighted column are English words.",
+      "technologies": ["HTML", "CSS", "Vanilla JS"],
+      "provider": { "name": "myself", "link": "https://www.yukilun.com/" },
+      "links": {
+        "repo": "https://github.com/yukilun/JavaScript_Projects_Challenges/tree/main/wordFill",
+        "demo": "https://js-challenges.yukilun.com/wordFill"
+      },
+      "screenshots": [
+        "/img/wordfill-game-desktop-1.png",
+        "/img/wordfill-game-desktop-2.png",
+        "/img/wordfill-game-desktop-3.png"
+      ]
+    },
+    {
+      "id": "3d-photo-gallery",
+      "name": "3D Photo Gallery",
+      "thumbnail": "/img/3d-photo-gallery-thumbnail.png",
+      "description": "Get bored of those 2D photo galleries? Try this 3D photo gallery! You can also choose dark mode or light mode as you like.",
+      "technologies": ["HTML", "CSS", "Vanilla JS"],
+      "provider": { "name": "myself", "link": "https://www.yukilun.com/" },
+      "links": {
+        "repo": "https://github.com/yukilun/JavaScript_Projects_Challenges/tree/main/photoGallery3D",
+        "demo": "https://js-challenges.yukilun.com/photoGallery3D"
+      },
+      "screenshots": [
+        "/img/3d-photo-gallery-desktop-1.png",
+        "/img/3d-photo-gallery-desktop-2.png",
+        "/img/3d-photo-gallery-desktop-3.png"
+      ]
+    },
+    {
+      "id": "clock",
+      "name": "Clock",
+      "thumbnail": "/img/clock-thumbnail.png",
+      "description": "It is a clock application with 2 types of clock: Traditional and Digital. You can also toggle between dark Mode and light Mode.",
+      "technologies": ["HTML", "CSS", "Vanilla JS"],
+      "provider": { "name": "myself", "link": "https://www.yukilun.com/" },
+      "links": {
+        "repo": "https://github.com/yukilun/JavaScript_Projects_Challenges/tree/main/clock",
+        "demo": "https://js-challenges.yukilun.com/clock"
+      },
+      "screenshots": [
+        "/img/clock-desktop-1.png",
+        "/img/clock-desktop-2.png",
+        "/img/clock-desktop-3.png"
+      ]
+    },
+    {
+      "id": "quiz-app",
+      "name": "Quiz App",
+      "thumbnail": "/img/quiz-app-thumbnail.png",
+      "description": "This nice-looking quiz app can be used in various situations, like an IQ test or a questionnaire!",
+      "technologies": ["HTML", "CSS", "Vanilla JS"],
+      "provider": { "name": "myself", "link": "https://www.yukilun.com/" },
+      "links": {
+        "repo": "https://github.com/yukilun/JavaScript_Projects_Challenges/tree/main/quizApp",
+        "demo": "https://js-challenges.yukilun.com/quizApp"
+      },
+      "screenshots": [
+        "/img/quiz-app-desktop-1.png",
+        "/img/quiz-app-desktop-2.png",
+        "/img/quiz-app-desktop-3.png"
+      ]
+    },
+    {
+      "id": "rock-paper-scissors",
+      "name": "Rock Paper Scissors",
+      "thumbnail": "/img/rock-paper-scissors-thumbnail.png",
+      "description": "Have you even played Rock Paper Scissors? In this game, you can challenge the NPC and see if you can win the game!",
+      "technologies": ["HTML", "CSS", "Vanilla JS"],
+      "provider": { "name": "myself", "link": "https://www.yukilun.com/" },
+      "links": {
+        "repo": "https://github.com/yukilun/JavaScript_Projects_Challenges/tree/main/rockPaperScissors",
+        "demo": "https://js-challenges.yukilun.com/rockPaperScissors"
+      },
+      "screenshots": [
+        "/img/rock-paper-scissors-desktop-1.png",
+        "/img/rock-paper-scissors-desktop-2.png",
+        "/img/rock-paper-scissors-desktop-3.png"
+      ]
+    },
+    {
+      "id": "cat-eyes-moving",
+      "name": "Cat Eyes Moving",
+      "thumbnail": "/img/cat-eyes-moving-thumbnail.png",
+      "description": "You will see a cute cat which is created by pure CSS! Try to move your cursor to see how the cat's eyes are moving!",
+      "technologies": ["HTML", "CSS", "Vanilla JS"],
+      "provider": { "name": "myself", "link": "https://www.yukilun.com/" },
+      "links": {
+        "repo": "https://github.com/yukilun/JavaScript_Projects_Challenges/tree/main/catEyesMoving",
+        "demo": "https://js-challenges.yukilun.com/catEyesMoving"
+      },
+      "screenshots": [
+        "/img/cat-eyes-moving-desktop-1.png",
+        "/img/cat-eyes-moving-desktop-2.png",
+        "/img/cat-eyes-moving-desktop-3.png"
+      ]
+    },
+    {
+      "id": "d3-tree-map",
+      "name": "D3 Tree Map",
+      "thumbnail": "/img/d3-tree-map-thumbnail.png",
+      "description": "This is a tree map shows the top 100 most sold video games grouped by platform.",
+      "technologies": ["HTML", "CSS", "D3.js", "Fetch API"],
+      "provider": {
+        "name": "FreeCodeCamp",
+        "link": "https://www.freecodecamp.org/"
+      },
+      "links": { "codepen": "https://codepen.io/yukilun/pen/MWzBMbp" },
+      "screenshots": [
+        "/img/d3-tree-map-desktop-1.png",
+        "/img/d3-tree-map-desktop-2.png",
+        "/img/d3-tree-map-desktop-3.png"
+      ]
+    },
+    {
+      "id": "d3-choropleth-map",
+      "name": "D3 Choropleth Map",
+      "thumbnail": "/img/d3-choropleth-map-thumbnail.png",
+      "description": "This is a choropleth map demostrates the United State education attainment with the percentage of adults with a bachelor's degree or higher.",
+      "technologies": ["HTML", "CSS", "D3.js", "Fetch API"],
+      "provider": {
+        "name": "FreeCodeCamp",
+        "link": "https://www.freecodecamp.org/"
+      },
+      "links": { "codepen": "https://codepen.io/yukilun/pen/OJawwJK" },
+      "screenshots": [
+        "/img/d3-choropleth-map-desktop-1.png",
+        "/img/d3-choropleth-map-desktop-2.png",
+        "/img/d3-choropleth-map-desktop-3.png"
+      ]
+    }
+  ],
+  "stampOptions": {
+    "texts": [
+      "accepted",
+      "validated",
+      "completed",
+      "submitted",
+      "achieved",
+      "well done",
+      "excellent",
+      "awesome",
+      "bravo",
+      "perfect"
+    ],
+    "icons": [
+      "mdi:emoticon-happy-outline",
+      "mdi:emoticon-outline",
+      "mdi:emoticon-excited-outline",
+      "mdi:emoticon-cool-outline",
+      "mdi:emoticon-lol-outline",
+      "mdi:emoticon-kiss-outline"
+    ],
+    "colorSaturation": "28%",
+    "colorLightness": "57%"
+  }
+}
