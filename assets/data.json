@@ -311,7 +311,7 @@
       "id": "d3-tree-map",
       "name": "D3 Tree Map",
       "thumbnail": "/img/d3-tree-map-thumbnail.png",
-      "description": "This is a tree map shows the top 100 most sold video games grouped by platform.",
+      "description": "This is a tree map that shows the top 100 most sold video games grouped by platform.",
       "technologies": ["HTML", "CSS", "D3.js", "Fetch API"],
       "provider": {
         "name": "FreeCodeCamp",
@@ -328,7 +328,7 @@
       "id": "d3-choropleth-map",
       "name": "D3 Choropleth Map",
       "thumbnail": "/img/d3-choropleth-map-thumbnail.png",
-      "description": "This is a choropleth map demostrates the United State education attainment with the percentage of adults with a bachelor's degree or higher.",
+      "description": "This is a choropleth map that demostrates the United State education attainment with the percentage of adults with a bachelor's degree or higher.",
       "technologies": ["HTML", "CSS", "D3.js", "Fetch API"],
       "provider": {
         "name": "FreeCodeCamp",
