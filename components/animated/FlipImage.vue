@@ -1,5 +1,5 @@
 <template>
-    <img ref="image" :src="link" :data-flip-id="id" class="shadow-lg" @load="handleImageLoaded"/>
+    <img ref="image" :src="link" :data-flip-id="id" class="shadow-lg w-full aspect-3/2" @load="handleImageLoaded"/>
 </template>
 
 <script setup>
