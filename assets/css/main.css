@@ -1,39 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Source+Sans+3:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Source+Sans+3:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-    html {
-        @apply overflow-x-hidden;
-    }
-    body {
-        @apply text-neutral-800 dark:text-neutral-50 overflow-x-hidden;
-    }
-    h1, h2, h3, h4, h5, h6 {
-        @apply font-heading;
-    }
+  html {
+    @apply overflow-x-hidden;
+  }
+  body {
+    @apply text-neutral-800 dark:text-neutral-50 overflow-x-hidden;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    @apply font-heading;
+  }
+  /* Scrollbar style on Firefox */
+  html, html > * {
+    scrollbar-width: thin;
+    scrollbar-color: #737373 #fafafa; /*neutral-500 neutral-50*/
+  }
+  html.dark, html.dark > * {
+    scrollbar-color: #737373 #262626; /*neutral-500 neutral-800*/
+  }
+  /* Scrollbar style on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 7px;
+  }
+  html::-webkit-scrollbar-track, html > *::-webkit-scrollbar-track {
+    background: #fafafa; /*neutral-50*/
+  }
+  html.dark::-webkit-scrollbar-track, html.dark > *::-webkit-scrollbar-track {
+    background: #262626; /*neutral-800*/
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #737373; /*neutral-500*/
+    border: none;
+  }
 }
 
 @layer utilities {
-    .transition-300 {
-        @apply transition-all duration-300;
+  .transition-300 {
+    @apply transition-all duration-300;
+  }
+  .transition-500 {
+    @apply transition-all duration-500;
+  }
+  .shadow-scan {
+    box-shadow: 0 0 10px 10px rgba(34, 211, 238, 0.4);
+  }
+  @media (hover: none) {
+    .show-only-hover {
+      @apply !hidden;
     }
-    .transition-500 {
-        @apply transition-all duration-500;
+  }
+  @media (pointer: coarse) {
+    .show-only-hover {
+      @apply !hidden;
     }
-    .shadow-scan {
-        box-shadow: 0 0 10px 10px rgba(34,211,238, 0.4);
-    }
-    @media (hover: none) {
-        .show-only-hover {
-            @apply !hidden;
-        }
-    }
-    @media (pointer: coarse) {
-        .show-only-hover {
-            @apply !hidden;
-        }
-    }
+  }
 }
