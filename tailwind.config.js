@@ -11,6 +11,9 @@ export default {
     "./app.vue",
     "./error.vue",
   ],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     extend: {
       fontFamily: {

@@ -28,7 +28,7 @@
     }
     @media (hover: none) {
         .show-only-hover {
-            @apply hidden;
+            @apply !hidden;
         }
     }
 }
