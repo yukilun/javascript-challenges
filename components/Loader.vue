@@ -1,5 +1,5 @@
 <template>
-    <div ref="loader" class="fixed top-0 left-0 z-40 w-full h-screen bg-neutral-50 dark:bg-neutral-800 hidden flex-col justify-center items-center opacity-0">
+    <div ref="loader" class="fixed top-0 left-0 z-40 w-full h-screen bg-neutral-50 dark:bg-neutral-800 flex flex-col justify-center items-center opacity-100">
         <div ref="content" class="w-[80%] max-w-[350px] opacity-0">
             <h1 class="text-5xl md:text-6xl lg:text-7xl text-center mb-5">
                 <span ref="percentage">100</span>%
@@ -47,14 +47,14 @@ onMounted(() => {
         ease: "Power2.easeOut"
     })
     // 4 - fade out loader
-    tl.from(loader.value, {
-        opacity: 1,
+    tl.to(loader.value, {
+        opacity: 0,
         duration: 0.5,
         ease: "Power2.easeOut"
     })
     // 5 - Remove loader
-    tl.from(loader.value, {
-        display: 'flex',
+    tl.to(loader.value, {
+        display: 'none',
         duration: 0.01
     })
     // 6 - Enable scrolling
