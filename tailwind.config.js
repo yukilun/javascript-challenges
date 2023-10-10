@@ -20,6 +20,9 @@ export default {
       },
       aspectRatio: {
         '3/2': '3 / 2'
+      },
+      height: {
+        'screen': ['100vh', '100dvh']
       }
     },
   },
