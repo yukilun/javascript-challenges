@@ -31,4 +31,9 @@
             @apply !hidden;
         }
     }
+    @media (pointer: coarse) {
+        .show-only-hover {
+            @apply !hidden;
+        }
+    }
 }
