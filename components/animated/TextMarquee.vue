@@ -1,8 +1,8 @@
 <template>
     <div class="w-full marquee flex overflow-hidden select-none">
-        <h1 v-for="idx in parseInt(repeat)" :key="idx" ref="texts" class="flex-shrink-0">
+        <span v-for="idx in parseInt(repeat)" :key="idx" ref="texts" class="flex-shrink-0 font-heading">
             {{ displayText }}
-        </h1>
+        </span>
     </div>
 </template>
 

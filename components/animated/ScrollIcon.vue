@@ -1,5 +1,5 @@
 <template>
-    <div class="w-6 h-10 mx-auto border-[3px] border-neutral-400 dark:border-neutral-600 rounded-full" aria-label="scroll down to explore">
+    <div class="w-6 h-10 mx-auto border-[3px] border-neutral-400 dark:border-neutral-600 rounded-full">
         <div ref="wheel" class="w-2 h-2 bg-neutral-600 dark:bg-neutral-400 rounded-full mx-auto mt-1"></div>
     </div>
 </template>

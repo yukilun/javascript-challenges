@@ -5,14 +5,14 @@
             <button type="button" @click="()=>handleNavigate(challenge.id)" class="group">
                 <AnimatedFlipThumbnail :link="challenge.thumbnail" :id="challenge.id"
                     class="opacity-80 group-hover:opacity-100 transition-300 shadow-lg" />
-                <div class="flex gap-3 justify-center md:justify-start text-lg md:text-2xl my-3">
-                    <p class="text-neutral-400 dark:text-neutral-500 md:w-12">
+                <span class="flex gap-3 justify-center md:justify-start text-lg md:text-2xl my-3">
+                    <span class="text-neutral-400 dark:text-neutral-500 md:w-12">
                         #{{ idx + 1 }}
-                    </p>
-                    <p class=" text-neutral-600 dark:text-neutral-300">
+                    </span>
+                    <span class=" text-neutral-600 dark:text-neutral-300">
                         {{ challenge.name }}
-                    </p>
-                </div>
+                    </span>
+                </span>
             </button>
         </li>
     </ul>
