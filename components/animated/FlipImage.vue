@@ -1,5 +1,5 @@
 <template>
-    <img ref="image" :src="link" :data-flip-id="id" class="shadow-lg"/>
+    <img ref="image" :src="link" :data-flip-id="id" class="shadow-lg" @load="handleImageLoaded"/>
 </template>
 
 <script setup>
@@ -11,6 +11,10 @@ const { id, link } = defineProps(['id', 'link']);
 const image = ref(null);
 
 onMounted(() => {
+    handleImageLoaded();
+})
+
+function handleImageLoaded() {
     if (image.value && flipStore.states[id]) {
         Flip.from(flipStore.states[id], {
             targets: image.value,
@@ -21,5 +25,5 @@ onMounted(() => {
         });
     }
     flipStore.setState(id, null);
-})
+}
 </script>
