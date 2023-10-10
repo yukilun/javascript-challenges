@@ -9,13 +9,15 @@ const { $Flip: Flip, $lenis: lenis } = useNuxtApp();
 
 const { id, link } = defineProps(['id', 'link']);
 const image = ref(null);
+const isFlipStarted = ref(false);
 
 onMounted(() => {
     handleImageLoaded();
 })
 
 function handleImageLoaded() {
-    if (image.value && flipStore.states[id]) {
+    if (!isFlipStarted.value && image.value && flipStore.states[id]) {
+        isFlipStarted.value = true;
         Flip.from(flipStore.states[id], {
             targets: image.value,
             ease: "Power2.easeInOut",
@@ -23,7 +25,8 @@ function handleImageLoaded() {
         }).then(()=> {
             flipStore.setFliping(false);
         });
+        flipStore.setState(id, null);
     }
-    flipStore.setState(id, null);
+
 }
 </script>

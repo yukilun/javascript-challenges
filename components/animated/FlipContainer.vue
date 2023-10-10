@@ -13,13 +13,15 @@ const { $Flip: Flip, $lenis: lenis } = useNuxtApp();
 
 const { id, link } = defineProps(['id','link']);
 const image = ref(null);
+const isFlipStarted = ref(false);
 
 onMounted(() => {
     handleImageLoaded();
 })
 
 function handleImageLoaded() {
-    if (image.value && flipStore.states[id]) {
+    if (!isFlipStarted.value && image.value && flipStore.states[id]) {
+        isFlipStarted.value = true;
         lenis.scrollTo(0, {
             duration: 1
         });
@@ -31,8 +33,8 @@ function handleImageLoaded() {
             navigateTo(`/challenge/${id}`);
             flipStore.setFliping(true);
         });
+        flipStore.setState(id, null);
     }
-    flipStore.setState(id, null);
 }
 
 onBeforeUnmount(() => {
