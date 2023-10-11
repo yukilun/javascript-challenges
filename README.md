@@ -1,4 +1,4 @@
-# Javascript Challenges
+# Javascript Challenges (v2.0)
 
 ![Thumbnail for Javascript Challenges](../../../yuki-portfolio/blob/main/public/images/projects/thumbnails/js-challenges.png)
 
