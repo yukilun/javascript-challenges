@@ -1,9 +1,9 @@
 <template>
-    <h2 ref="heading">
+    <h3 ref="heading">
         <span v-for="char,idx in headingText.split('')" :key="idx" ref="chars" class="inline-block">
             {{ char }}
         </span>
-    </h2>
+    </h3>
 </template>
 
 <script setup>

@@ -4,7 +4,7 @@
             <AnimatedFlipImage :link="challenge.thumbnail" :id="challenge.id" />
         </div>
         <div class="flex flex-col justify-center gap-4 lg:gap-5">
-            <h1 class="text-3xl lg:text-4xl">{{ challenge.name }}</h1>
+            <p class="font-heading text-3xl lg:text-4xl">{{ challenge.name }}</p>
             <ul class="flex gap-2 flex-wrap justify-center md:justify-start text-sm lg:text-base">
                 <li v-for="technology in challenge.technologies"
                     class="px-2 rounded-full bg-neutral-400 text-neutral-50 dark:bg-neutral-400 dark:text-neutral-800">
