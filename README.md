@@ -1,75 +1,20 @@
-# Nuxt 3 Minimal Starter
+# Javascript Challenges
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Thumbnail for Javascript Challenges](../../../yuki-portfolio/blob/main/public/images/projects/thumbnails/js-challenges.png)
 
-## Setup
+## Overview
+The JavaScript Challenges serve as a documentation of my journey in web development — from basic HTML, CSS, and Vanilla JavaScript to various frameworks like React and Vue. Admittedly, some challenges may lack responsiveness, and certain pieces of code might not be optimal. Nonetheless, these challenges provided invaluable opportunities to refine my coding skills. Explore these challenges and feel free to take them on! During the creation of this showcase, I used Nuxt.js and created scroll animations and smooth page transitions with GSAP and Lenis Library.
 
-Make sure to install the dependencies:
+## Links
+[Live Website](https://javascript-challenges.yukilun.com")
 
-```bash
-# npm
-npm install
+## Technologies
+`Vue.js` `Nuxt.js` `Pinia` `Tailwind CSS` `GSAP` `Lenis` `Hover-effect`
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Details
+![Image for Javascript Challenges](../../../yuki-portfolio/blob/main/public/images/projects/details/js-challenges-labtop-1-front.png)
+![Image for Javascript Challenges](../../../yuki-portfolio/blob/main/public/images/projects/details/js-challenges-labtop-1-back.png)
+![Image for Javascript Challenges](../../../yuki-portfolio/blob/main/public/images/projects/details/js-challenges-labtop-2-front.png)
+![Image for Javascript Challenges](../../../yuki-portfolio/blob/main/public/images/projects/details/js-challenges-labtop-2-back.png)
+![Image for Javascript Challenges](../../../yuki-portfolio/blob/main/public/images/projects/details/js-challenges-labtop-3-front.png)
+![Image for Javascript Challenges](../../../yuki-portfolio/blob/main/public/images/projects/details/js-challenges-labtop-3-back.png)
